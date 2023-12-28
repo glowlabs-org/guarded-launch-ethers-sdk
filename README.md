@@ -4,10 +4,11 @@ This repository contains the typechain types and abis related to the glow labs g
 
 ## Install
 
-`npm install @glowlabs-org/guarded-launch-ethers-sdk`
+`npm install ethers@5.7.2 @glowlabs-org/guarded-launch-ethers-sdk`
 
 ## Requirements
 
+- Ethers V5
 - Node version >= 16
 
 ## Example Usage
