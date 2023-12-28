@@ -1,0 +1,40 @@
+{
+  "name": "@glowlabs-org/guarded-launch-ethers-sdk",
+  "version": "0.0.1",
+  "description": "A library containing all typechain types and addresses relating to the glow guarded launch",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc -p ./tsconfig.build.json --module commonjs --outDir ./lib/cjs && node postbuild-cjs.mjs",
+    "build:esm": "tsc -p ./tsconfig.build.json --module es2015 --outDir ./lib/esm && node postbuild-esm.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "./lib/cjs/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "exports": {
+    "types": "./lib/esm/index.d.ts",
+    "import": "./lib/esm/index.js",
+    "require": "./lib/cjs/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "ethers": "5.x.x"
+  },
+  "devDependencies": {
+    "ethers": "^5.7.2",
+    "typescript": "^5.3.3"
+  }
+}
