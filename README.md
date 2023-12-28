@@ -1,6 +1,6 @@
 # Glow Labs ABIs
 
-This repository contains the addresses and abis related to the glow labs guarded launch.
+This repository contains the typechain types and abis related to the glow labs guarded launch.
 
 ## Install
 
