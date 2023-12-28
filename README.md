@@ -4,7 +4,7 @@ This repository contains the addresses and abis related to the glow labs guarded
 
 ## Install
 
-`npm install @glowlabs-org/guarded-launch-abis`
+`npm install @glowlabs-org/guarded-launch-ethers-sdk`
 
 ## Requirements
 
