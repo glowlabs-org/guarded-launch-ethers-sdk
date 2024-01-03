@@ -1,6 +1,6 @@
 {
   "name": "@glowlabs-org/guarded-launch-ethers-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library containing all typechain types and addresses relating to the glow guarded launch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
